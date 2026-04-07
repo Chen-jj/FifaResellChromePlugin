@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "FIFA 2026 Price Tracker",
+  "version": "1.2",
+  "permissions": ["storage"],
+  "host_permissions": ["https://fwc26-resale-usd.tickets.fifa.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://fwc26-resale-usd.tickets.fifa.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}

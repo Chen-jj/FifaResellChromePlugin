@@ -1,0 +1,48 @@
+#fifa-helper-panel {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 280px;
+    max-height: 80vh;
+    background: rgba(255, 255, 255, 0.95);
+    border: 2px solid #006BD6;
+    border-radius: 8px;
+    z-index: 999999;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+    overflow-y: auto;
+}
+
+#fifa-helper-panel h3 {
+    margin-top: 0;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.cat-section {
+    margin-top: 10px;
+    padding: 5px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+#fifa-results ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+}
+
+#fifa-results li {
+    font-size: 12px;
+    padding: 5px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.price {
+    color: #d32f2f;
+    font-weight: bold;
+    font-size: 14px;
+}
